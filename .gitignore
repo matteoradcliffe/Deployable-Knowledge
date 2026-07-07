@@ -1,0 +1,30 @@
+# frontend 
+node_modules
+.output
+/.svelte-kit
+/build
+
+# environment 
+*.env
+*.env.*
+.envrc
+.direnv/
+
+# operating systems
+.DS_Store
+Thumbs.db
+
+# editors 
+.vscode/
+
+# datbases
+chroma_db/
+app.db
+app.db-*
+drizzle/
+documents/*.pdf
+
+# --- Model cache or sentence-transformers ---
+models/
+tmp_model/
+tmp_model_incomplete_backup/
